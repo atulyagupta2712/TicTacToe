@@ -1,0 +1,117 @@
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 65px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    color: red;
+}
+
+@media(max-width: 552px){
+    h1{
+        font-size: 55px;
+    }
+}
+@media(max-width: 460px){
+    h1{
+        margin: 8% 0%;
+        font-size: 50px;
+    }
+}
+@media(max-width: 360px){
+    h1{
+        font-size: 45px;
+    }
+}
+button{
+    display: block;
+    width: 90px;
+    height: 100px;
+    margin: 4% 0%;
+    background-color: bisque;
+    font-size: 40px;
+    font-family: 'Rancho', cursive;
+    color: red;
+    
+}
+.main-div{
+    margin: 0% 1%;
+}
+.row{
+    
+    display: flex;
+    justify-content: center;
+    height: 45%;
+    width: 35%;
+    margin: 0 auto;
+    /* margin-top: 0%; */
+}
+.game{
+    width: 25%;
+    height: 10%;
+    text-align: center;
+    padding: 0%;
+    /* margin-left: 38%; */
+    margin: 0 auto;
+    margin-top: 1%;
+}
+@media(max-width: 992px){
+   .row{
+       height: 50%;
+       width: 50%;
+   }
+   .game{
+       width: 42%;
+   }
+}
+@media(max-width: 770px){
+    .row{
+        height: 60%;
+        width: 70%;
+    }
+    .game{
+        width: 50%;
+        font-size: 30px;
+    }
+ }
+ @media(max-width: 460px){
+     button{
+         width: 72px;
+         height: 72px;
+     }
+     .row{
+        height: 50%;
+        width: 60%;
+    }
+    .game{
+        width: 70%;
+        margin-top: 2%;
+        /* font-size: 27px; */
+    }
+ }
+ @media(max-width: 420px){
+     .row{
+         width: 80%;
+     }
+ }
+ @media(max-width: 320px){
+     .row{
+         width: 100%;
+     }
+ }
+h3{
+    margin-top: 2.5%;
+    color: red;
+    font-size: 45px;
+    font-family: 'Alegreya', serif;
+}
+@media(max-width: 460px){
+    h3{
+        margin-top: 12%;
+        font-size: 40px;
+    }
+}
+@media(max-width: 360px){
+    h3{
+        font-size: 35px;
+    }
+}
